@@ -1,0 +1,1269 @@
+/*
+Theme Name: Simon WP Framework Child
+Description: Child theme for the simon-wp-framework
+Author: Martin Fuks
+Template: simon-wp-framework
+*/
+
+@import url("../simon-wp-framework/style.css");
+
+
+/*////////  FONTS   //////////*/
+
+@font-face{
+font-family: 'HelveticaNeueLTStd';
+src:url('./fonts/HelveticaNeueLTStd-Cn.woff');
+}
+
+@font-face{
+font-family: 'Helvetica';
+src:url('./fonts/Helvetica.woff');
+}
+
+@font-face{
+font-family: 'HelveticaLight';
+src:url('./fonts/Helvetica-Light.woff');
+}
+
+@font-face{
+font-family: 'HelveticaBold';
+src:url('./fonts/Helvetica-Bold.woff');
+}
+
+@font-face{
+font-family: 'HelveticaCufont';
+src:url('./fonts/Helvetica-Neue-LT.ttf');
+}
+
+/*////////  GENERAL   //////////*/
+
+html {
+    zoom: 1;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    min-height: 990px; 
+}
+
+body.page-template-rates-page-php {
+    min-height: 850px;
+}
+
+body.page-template-default {
+    height: auto;
+}
+
+.outer_wrap {
+    width: 100% !important;
+    height: 100%;
+    margin-bottom: -80px !important;
+    min-height: 915px;
+}
+
+.outer_wrap:after {
+    content: "";
+    display: block;
+}
+
+.inner_wrap {
+    width: 100%;
+}
+
+.content-wrap {
+    width: 95%;
+    padding-left: 3%;
+}
+
+.content {
+    margin: 0 !important;
+}
+
+/*////////  HEADER   //////////*/
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+#lang-switch {
+    float: right;
+}
+
+#lang-switch a {
+    font-family: "Helvetica", regular;
+    font-weight: 100;
+}
+
+#lang-switch a:active {
+    color: #000 !important;
+}
+
+#lang {
+    list-style: none;
+    display: block;
+}
+
+#lang li {
+    display: inline-block;
+}
+
+
+#lang li:nth-child(1):after { 
+    content: "|"; 
+    padding: 0 .5em; 
+    text-decoration: none !important;
+}
+
+
+.page-template-rates-page-php div#navigation, .page-template-default div#navigation, .page-template-home-page-php div#navigation, .page-template-pinless-page-php div#navigation{
+    background-image: url(./images/nav-background.png);
+    background-size: cover;
+    right: -20px;
+    top: 50px;
+}
+
+.page-template-retailers-page-php div#navigation, .page-template-app-page-php div#navigation {
+    background-image: url(./images/nav-background.png);
+    background-size: cover;
+    right: -20px;
+    top: 60px;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding-left: 14px;
+    font-family: "Helvetica", regular;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#navigation a:after {
+			display:block;
+			content:attr(title);
+			font-weight:600;
+			color:transparent;
+			overflow:hidden;
+			visibility:hidden;
+            background: none;
+		}
+
+#navigation a:hover {
+    font-family: "HelveticaBold";
+    text-decoration: underline;
+    background: none !important;
+    color: #000 !important;
+}
+
+#navigation .current_page_item > a {
+    font-family: "HelveticaBold";
+    text-decoration: underline;
+    background: none !important;
+    color: #000 !important;
+}
+
+
+/*////////  HOME PAGE   //////////*/
+
+
+.content {
+    padding: 0px;
+}
+
+/*////////  TOP BANNER   //////////*/
+
+#top-banner {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 80%;
+}
+
+.page-template-rates-page-php #banner-text, .page-template-home-page-php #banner-text, .page-template-pinless-page-php #banner-text {
+    width: auto;
+    float: left;
+    max-width: 63%;
+}
+
+.page-template-app-page-php #banner-text {
+    width: auto;
+    float: left;
+    top: -10px;
+    position: relative;
+}
+
+#banner-text h1, #banner-text h2, #banner-text h3 {
+    display: inline-block;
+}
+
+#banner-text h1 {
+    font-size: 2.2em !important;
+}
+
+#banner-text h2 {
+    font-size: 2em !important;
+}
+
+#banner-text h3 {
+    font-size: 1.6em !important;
+    line-height: 1em !important;
+}
+
+
+#top-banner p {
+    font-family: "HelveticaBold";
+    font-size: 1.3em !important;
+}
+
+#f-f {
+    position: relative;
+    top: -32px;
+    width: 260px;
+    float: left;
+    margin-left: 25px;
+}
+
+/*////////    APP BANNERS   /////////*/
+
+.page-template-home-page-php #app {
+    width: 60%;
+    float: left;
+}
+
+#app {
+    width: 42%;
+    float: left;
+}
+
+
+#first-message {
+    font-family: "HelveticaBold";
+    font-size: 2.4em;
+    margin-bottom: 9px;
+}
+
+.page-template-retailers-page-php #first-message {
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.page-template-home-page-php #second-message, .page-template-retailers-page-php #second-message {
+    font-family: "HelveticaBold";
+    font-size: 2em;
+}
+
+.page-template-pinless-page-php #second-message {
+    font-family: "HelveticaBold";
+    font-size: 1.8em;
+}
+
+#girl {
+    background-image: url(./images/girl-front-page.png);
+    background-size: contain;
+    width: 400px;
+    height: 570px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 51%;
+    top: -6px;
+}
+
+
+#app-banner {
+    margin-top: 50px;
+    float: left;
+    position: relative;
+    background-image: url(./images/app-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 381px;
+    height: 344px;
+    z-index: 100;
+}
+
+#banner-shadow {
+    clear: both;
+    margin-top: -25px;
+    float: left;
+    position: relative;
+    background-image: url(./images/button-shadow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 50px;
+    z-index: 99;
+    left: -10px;
+}
+
+#downloads {
+    float: left;
+    clear: both;
+}
+
+
+.download-title {
+    padding-top: 20px;
+    font-family: "Helvetica", regular;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.download-title bold {
+    font-family: "HelveticaBold";
+}
+
+.page-template-home-page-php ul.stores {
+    margin: 0 !important;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.page-template-app-page-php ul.stores {
+    width: 100%;
+    padding-top: 20px;
+    margin: 0 !important;
+}
+
+.stores li {
+    list-style: none;
+}
+
+.stores li a {
+    width: 100%;
+    height: 100%;
+}
+
+.apple input[type="button"]{
+    width: 100%;
+    height: 62px;
+    background-image: url(./images/apple-store.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: none;
+    background-color: transparent;
+    border: none;
+}
+
+.apple-es input[type="button"]{
+    width: 100%;
+    height: 62px;
+    background-image: url(./images/apple-store-es.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: none;
+    background-color: transparent;
+    border: none;
+}
+
+.apple-small input[type="button"]{
+    width: 144px;
+    height: 48px;
+    background-image: url(./images/apple-store.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: none;
+    background-color: transparent;
+    border: none;
+}
+
+.apple-small-es input[type="button"]{
+    width: 144px;
+    height: 48px;
+    background-image: url(./images/apple-store-es.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: none;
+    background-color: transparent;
+    border: none;
+}
+
+.android input[type="button"]{
+    float: right;
+    width: 100%;
+    height: 62px;
+    background-image: url(./images/google-play.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.android-es input[type="button"]{
+    float: right;
+    width: 100%;
+    height: 62px;
+    background-image: url(./images/google-play-es.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.android-small input[type="button"]{
+    width: 144px;
+    height: 48px;
+    background-image: url(./images/google-play.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.android-small-es input[type="button"]{
+    width: 144px;
+    height: 48px;
+    background-image: url(./images/google-play-es.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+/*////////////      RIGHTBANNERS     ///////////*/
+
+.page-template-home-page-php #right-banners {
+    float: right;
+    width: 40%;
+    max-width: 800px;
+    position: relative;
+    top: -10px;
+    right: 4%;
+}
+
+.page-template-retailers-page-php #right-banners {
+    float: right;
+    width: 51%;
+    position: relative;
+    top: 15px;
+    right: 0%;
+}
+
+.page-template-app-page-php #right-banners {
+    float: right;
+    width: 52%;
+    position: relative;
+    top: 15px;
+    right: 4%;
+}
+
+.page-template-pinless-page-php #right-banners {
+    float: right;
+    width: 57%;
+    position: relative;
+    right: 4%;
+}
+
+.page-template-rates-page-php #right-banners {
+    float: right;
+    width: 51%;
+    position: absolute;
+    top: 184px;
+    right: 0%;
+}
+
+#low-rates {
+    float: right;
+    position: relative;
+    background-image: url(./images/rates-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 403px;
+    height: 394px;
+    z-index: 110;
+}
+
+#rates-titles {
+    font-family: "HelveticaBold";
+    font-size: 27px;
+    line-height: 27px;
+    position: relative;
+    top: 28px;
+    left: 48px;
+}
+
+#rates-titles-es {
+    font-family: "HelveticaBold";
+    font-size: 27px;
+    line-height: 27px;
+    position: relative;
+    top: 28px;
+    letter-spacing: -2.1px;
+    width: 100%;
+    text-align: center;
+}
+
+.rates-bullets, .rates-bullets-iPhone {
+    position: relative;
+    top: 47px;
+    left: 48px;
+}
+
+.rates-bullets li bold, .rates-bullets-iPhone li bold{
+    font-family: "HelveticaBold";
+}
+
+.rates-bullets li, .rates-bullets-iPhone li {
+    list-style: none;
+    font-family: "Helvetica", regular;
+    font-size: 27px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+#sample-rates-text {
+    height: 40px;
+    position: relative;
+    top: 58px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sample-rates-text span {
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Helvetica", regular !important;
+    display: inline;
+    vertical-align: super;
+    font-weight: 500 !important;
+    top: -7px;
+    position: relative;
+    max-height: 20px;
+}
+
+
+.flag {
+    display: inline;
+    width: 40px;
+    height: 40px;
+}
+
+
+.page-template-home-page-php #rates-selector {
+    position: relative;
+    top: 68px;
+    left: 37px;
+    width: 332px;
+}
+
+.page-template-rates-page-php #rates-selector {
+    position: relative;
+    top: 50px;
+    left: 37px;
+    width: 332px;
+}
+
+#rates-selector select {
+    background-image: url(./images/rates-drop-down.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: "HelveticaBold";
+    font-size: 20px;
+    line-height: 20px;
+    height: 36px;
+    color: #000;
+    border: 1px solid #94288a;
+}
+
+#selected-rate {
+    font-family: "Helvetica", regular;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-weight: 500;
+    width: 100%;
+}
+#srt {
+    width: 71%;
+    float: left
+}
+
+#rates-link {
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    margin-top: 5px;
+}
+
+#rates-link a {
+    text-decoration: none;
+    color: #a01a0f;
+    font-style: italic;
+}
+
+#rates-banner {
+    position: absolute;
+    top: 328px;
+    left: 5px;
+    width: 400px;
+}
+
+
+#pin-less {
+    float: right;
+    position: relative;
+    background-image: url(./images/pin-less-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 403px;
+    height: 135px;
+    z-index: 115;
+    margin-top: 15px;
+}
+
+#pin-less-title {
+    width: 90%;
+    position: relative;
+    top: 22px;
+    left: 43px;
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#pin-less-copy {
+    width: 90%;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    font-family: "Helvetica";
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400 !important;
+}
+
+#pin-less-link {
+    width: 90%;
+    position: absolute;
+    top: 107px;
+    left: 290px;
+    font-family: "Helvetica", oblique;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: underline;
+}
+
+#pin-less-link a {
+    color: #a01a0f;
+    font-style: italic;
+}
+
+#retailer {
+    float: right;
+    position: relative;
+    background-image: url(./images/retailers-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 442px;
+    height: 104px;
+    z-index: 120;
+    margin-top: 15px;
+}
+
+#retailer-title {
+    width: 90%;
+    position: relative;
+    top: 23px;
+    left: 107px;
+    font-family: "Helvetica";
+    font-size: 26px;
+    line-height: 24px;
+}
+
+#retailer-title a {
+    color: #ffff33;
+    text-decoration: none;
+    text-shadow: 4px 6px 11px rgba(0, 0, 0, 1);
+    -moz-text-shadow: 4px 6px 11px rgba(0, 0, 0, 1);
+    -webkit-text-shadow: 4px 6px 11px rgba(0, 0, 0, 1);
+    filter: dropshadow(color=#000000, offx=2, offy=2) !important;
+}
+
+#retailer-title a:hover {
+    text-decoration: underline;
+}
+
+#retailer-copy {
+    width: 90%;
+    position: relative;
+    top: 37px;
+    left: 107px;
+    font-family: "Helvetica";
+    font-size: 20px;
+    line-height: 17px;
+    color: #ffff33;
+}
+
+/*////////  FOOTER  //////////*/
+
+#footer {
+    border: none;
+    background-color: #0c1340;
+    text-align: left;
+}
+
+#footer p {
+    float: left;
+    font-family: "Helvetica", light;
+    font-size: 10px !important;
+    color: #ff9933;
+    margin: 0;
+    position: relative;
+    top: -28px;
+}
+
+#footer .flex_33 {
+    float: right;
+    width: 60%;
+}
+
+ul#menu-footer-menu, ul#menu-menu-footer {
+    float: right;
+    margin-top: 10px;
+    max-width: 95%;
+}
+
+ul#menu-footer-menu li, ul#menu-menu-footer li {
+    display: inline-block;
+    float: left;
+}
+
+ul#menu-footer-menu li:before, ul#menu-menu-footer li:before { content: "|"; padding: 0 .5em; color: #ff9933;}
+ul#menu-footer-menu li:first-child:before, ul#menu-menu-footer li:first-child:before { content: ""; padding: 0; }
+
+ul#menu-footer-menu li a, ul#menu-menu-footer li a {
+    text-decoration: none;
+    color: #ff9933;
+}
+
+ul#menu-footer-menu li a:hover, ul#menu-menu-footer li a:hover {
+    text-decoration: underline;
+}
+
+ul#menu-footer-menu .current_page_item > a, ul#menu-menu-footer .current_page_item > a {
+    text-decoration: underline;
+}
+
+
+/*////////  APP PAGE  //////////*/
+
+.app-left-side {
+    width: 40%;
+    height: auto;
+}
+
+.phones {
+    background-image: url(./images/App-phones.png);
+    background-size: contain;
+    width: 450px;
+    height: 591px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 10%;
+    top: -6px;
+}
+
+.download-banner {
+    background-image: url(./images/download-buttons-background.png);
+    background-size: contain;
+    width: 399px;
+    height: 142px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 10%;
+    top: -2px;
+}
+
+.download-text {
+    color: #fff;
+    font-size: 23px;
+    width: 100%;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+ul.app-features {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+ul.app-features li {
+    display: table;
+    padding-bottom: 3px;
+}
+
+ul.app-features li span {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+ul.app-features li span a {
+    padding-left: 5px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.app-icon {
+    width: 32px;
+    margin-right: 10px;
+    max-width: none !important;
+}
+
+.asterisk p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.user-guides {
+    background-image: url(./images/app-download-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 130px;
+    position: relative;
+    right: 94px;
+}
+
+#user-guides-title {
+    width:360px;
+    position: relative;
+    top: 49px;
+    left: 135px;
+    font-family: "Helvetica";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25px;
+    text-shadow: 4px 6px 11px rgba(0, 0, 0, 1);
+    -moz-text-shadow: 4px 6px 11px rgba(0, 0, 0, 1);
+    -webkit-text-shadow: 4px 6px 11px rgba(0, 0, 0, 1);
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+
+#user-guides-title a {
+    color: #ffff33;
+    text-decoration: none;
+}
+
+#user-guides-title a:hover {
+    text-decoration: underline;
+}
+
+.manual-button {
+    float: right;
+    background-image: url(./images/manual-button.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 75px;
+    top: 33px;
+    position: relative;
+    right: 20px;
+}
+
+#user-guides-text {
+    position: relative;
+    top: 25px;
+    left: 144px;
+    font-family: "Helvetica";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffff33;
+    max-width: 450px;
+}
+
+ul.manual-download {
+    width: 620px;
+    float: left;
+    margin: 0px;
+    position: relative;
+}
+
+ul.manual-download li {
+    width: 200px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 66px;
+    list-style: none;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+ul.manual-download li:nth-child(3) {
+    margin-right: 0px;
+    width: 186px;
+}
+
+/*////////  PIN-LESS PAGE  //////////*/
+
+
+.world-phone {
+    background-image: url(./images/world-phone.png);
+    background-size: contain;
+    width: 562px;
+    height: 500px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 2%;
+    top: 42px;
+}
+
+.easy-123 {
+    position: relative;
+    background-image: url(./images/easy-123-backgound.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 631px;
+    height: 381px;
+    right: -3%;
+}
+
+.easy-123-title {
+    padding-top: 63px;
+    padding-left: 182px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+table.easy-123-steps {
+    border: none !important;
+    max-width: 81%;
+    table-layout: fixed;
+    margin-left: 101px;
+    margin-top: 16px;
+}
+
+table.easy-123-steps tr, table.easy-123-steps td {
+    border: none !important;
+    vertical-align: top;
+}
+
+table.easy-123-steps td:nth-child(1) {
+    width: 18%;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.available {
+    position: absolute;
+    bottom: 14px;
+    right: 29px;
+    color: red;
+    font-style: italic;
+}
+
+/*////////  RATES PAGE  //////////*/
+
+.rates-panel {
+    background-image: url(./images/rates-panel-background.png);
+    background-size: contain;
+    width: 500px;
+    height: 488px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 10%;
+}
+
+.rates-panel-title {
+    font-family: "HelveticaBold";
+    font-size: 1.8em;
+    line-height: 1.3em;
+    color: #fff;
+    position: relative;
+    top: 32px;
+    left: 55px;
+}
+
+.page-template-rates-page-php #rates-selector {
+    width: 90%;
+    left: 0px !important;
+    margin: 0 auto;
+}
+
+#rates-table table {
+    width: 100%;
+    border: none;
+    margin-top: 1px;
+}
+
+#rates-table th {
+    padding: 2px;
+    width: auto;
+    line-height: 19px;
+    background-color: #FBF800;
+    color: #333;
+}
+
+#rates-table td {
+    padding: 5px;
+    line-height: 19px;
+    background: none;
+    color: #FBF800;
+    text-align: right;
+}
+
+#rates-table td:nth-child(1) {
+    text-align: left;
+}
+
+.rates-bullets-banner {
+    position: relative;
+    background-image: url(./images/rates-bullets-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 594px;
+    height: 334px;
+    float: right;
+    margin-bottom: 30px;
+    left: -60px;
+}
+
+.rates-bullets-title {
+    font-family: "HelveticaBold";
+    font-size: 1.8em;
+    line-height: 1.3em;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+.rates-bullets-2 {
+    width: 369px;
+    margin-top: 9px;
+    margin-left: 147px;
+}
+
+.rates-bullets-2 li {
+    list-style: none;
+    width: 50%;
+    margin: 0px;
+    float: left;
+    font-family: "Helvetica", regular;
+    font-size: 28px;
+    line-height: 19px;
+    font-weight: 100;
+    margin-bottom: 21px;
+}
+
+.rates-bullets-text_1 {
+    clear: both;
+     font-family: "Helvetica", regular;
+    font-size: 28px;
+    line-height: 19px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 14px;
+    margin-bottom: 20px;
+}
+
+.rates-bullets-text_2 {
+    font-family: "HelveticaBold";
+    font-size: 1.8em;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+
+.rates-banner-2 {
+background-image: url(./images/rates-banner-background.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 75%;
+height: auto;
+float: right;
+margin-top: 5%;
+}
+
+/*////////  RETAILERS PAGE  //////////*/
+
+
+.benefits {
+    background-image: url(./images/benefits_button.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 502px;
+    height: 116px;
+    position: relative;
+    margin-top: 30px;
+    left: 40px;
+}
+
+.benefits-push {
+    background-image: url(./images/benefits-push.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 76px;
+    position: relative;
+    top: 21px;
+    right: 19px;
+    float: right;
+    border-radius: 76px;
+}
+
+.benefits-push:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.benefits-line-1 {
+    position: relative;
+    left: 45px;
+    top: 23px;
+    max-width: 340px;
+}
+
+.benefits-line-2 {
+    position: relative;
+    left: 45px;
+    top: 17px;
+    font-family: "Helvetica";
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 22px;
+    font-style: italic;
+    max-width: 340px;
+}
+
+.benefits-line-3 {
+    position: relative;
+    left: 45px;
+    top: 20px;
+    text-decoration: underline;
+    max-width: 340px;
+}
+
+.login-line-2 {
+    position: relative;
+    left: 45px;
+    top: 17px;
+    max-width: 340px;
+}
+
+.login-push {
+    background-image: url(./images/login-push.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 76px;
+    position: relative;
+    top: 21px;
+    right: 19px;
+    float: right;
+    border-radius: 76px;
+}
+
+.login-push:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.instructions-push {
+    background-image: url(./images/instructions-push.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 78px;
+    position: relative;
+    top: 21px;
+    right: 19px;
+    float: right;
+    border-radius: 76px;
+}
+
+.instructions-push:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.retailers-login {
+    background-image: url(./images/login_button.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 506px;
+    height: 116px;
+    position: relative;
+    margin-top: 26px;
+    left: 40px;
+}
+
+.retailers-instructions  {
+    background-image: url(./images/instructions_button.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 508px;
+    height: 119px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+#hand-phone {
+    background-image: url(./images/7by24_retailer_phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 546px;
+    right: 0;
+    position: absolute;
+    margin-top: -546px;
+}
+
+.acrobat-retailers {
+    position: relative;
+    top: 41px;
+    left: 32%;
+    max-width: 208px
+}
+
+.acrobat-retailers img {
+    width: 205px;
+}
+
+/*////////  ONLINE MANUAL   //////////*/
+
+div.WordSection1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+p.MsoNormal {
+    font-size: 1.5em;
+}
+
+
+/*////////  TEXT PAGES   //////////*/
+
+
+body.page-template-default {
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.user-manual p, .user-manual li, .user-manual span {
+    font-family: "Arial", regular !important;
+    font-size: 18px !important;
+}
+
+.user-manual ul, .user-manual a span {
+    margin-bottom: 20px !important;
+}

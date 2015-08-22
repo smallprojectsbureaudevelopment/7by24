@@ -1,0 +1,2864 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 740px)
+and (max-width : 740px) {
+    
+    #header {
+        padding: 0 !important;
+    }
+    
+    #lang-switch {
+        margin-top: 20px;
+        margin-right: 19px;
+    }
+    #top-banner {
+        top: 163px !important;
+        left: 0 !important;
+        width: 100% !important;
+        display: none !important;
+    }
+    
+    #logo {
+        width: 120px !important;
+        height: 120px !important;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    
+    .page-template-rates-page-php #banner-text, .page-template-home-page-php #banner-text, .page-template-pinless-page-php #banner-text {
+        max-width: 100% !important;
+    }
+    
+                nav {
+                border-bottom: 0;
+            }
+            nav ul {
+                display: none;
+                height: auto;
+            }
+            #navigation li li {
+                display: none;
+                height: auto;
+            }
+            nav #pull {
+                padding: 0px 0px 15px 10px;
+                width: 30px;
+                height: 30px;
+            }
+            nav a#pull {
+                display: block;
+            }
+            nav li {
+                display: block;
+                float: none;
+                width: 100%;
+            }
+            nav li a {
+                border-bottom: 1px solid #576979;
+            }
+
+    div#navigation {
+        top: 13px !important;
+        right: 0 !important;
+    }
+    
+    #navigation {
+       height: 50px;
+        width: 135px !important;
+        float: right;
+    }
+    
+    #navigation ul {
+        width: 200px !important;
+        position: absolute !important;
+        right: 0px !important;
+    }
+    
+    #navigation li {
+        position: relative;
+        background: rgba(244, 206, 13, 0.9);
+        max-width: 190px;
+        border: 1px solid #A36F6F;
+        z-index: 9999;
+        float: none;
+        text-align: center;
+    }
+    
+    nav #pull {
+        margin-left: 30px;
+    }
+    
+    
+    #f-f {
+        display: none;
+    }
+    
+    #app {
+        float: none !important;
+        width: 100% !important;
+    }
+    
+    #right-banners {
+        float: none !important;
+        width: 100% !important;
+        top: 10px !important;
+        right: 0 !important;
+    }
+    
+    .content-wrap {
+        padding-left: 1% !important;
+        padding-right: 2% !important;
+    }
+    
+    /*///  FRONT PAGE   ///*/
+    
+    body.page-template-home-page-php {
+        min-height: 1365px !important;
+    }
+    
+    .page-template-home-page-php .outer_wrap {
+        margin-bottom: -70px !important;
+        min-height: 1365px;
+    }
+
+    
+    #banner-shadow {
+        width: 306px !important;
+        height: 35px!important;
+        margin-top: -18px!important;
+        float: none!important;
+        margin: 0 auto!important;
+    }
+    
+    #girl {
+        display: none !important;
+    }
+    
+    #first-message, #second-message, .download-title, .app-title {
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    #first-message {
+        font-size: 2.2em !important;
+    }
+    
+    .page-template-home-page-php #second-message, .page-template-retailers-page-php #second-message {
+        font-size: 1.5em !important;
+    }
+    
+    
+    #downloads {
+        width: 100%!important;
+    }
+    .download-title {
+        font-size: 1.6em !important;
+    }
+    
+    page-template-home-page-php ul.stores {
+        width: 100% !important;
+    }
+    
+    .stores li {
+        float: none !important;
+        display: block !important;
+        width: 185px !important;
+        margin: 0 auto !important;
+    }
+    
+
+    .rates-bullets-iPhone li {
+    margin-bottom: 2px !important;
+    line-height: 18px !important;
+    }
+
+    
+        /*///  APPS PAGE   ///*/
+    
+    body.page-template-app-page-php, .page-template-app-page-php .outer_wrap {
+    min-height: 1420px!important;
+    }
+    
+    
+    .phones {
+        display: none;
+    }
+    
+    .download-banner {
+    width: 310px !important;
+    height: 110px !important;
+    left: 0 !important;
+    margin: 0 auto !important;
+    }
+    
+    
+    .download-text {
+    font-size: 1.7em!important;
+    width: 90%!important;
+    margin-left: 5%!important;
+    text-align: center!important;
+    line-height: 1.2em!important;
+    }
+
+    
+    .page-template-app-page-php ul.stores {
+        width: 100%!important;
+        padding-top: 27px!important;
+        margin-left: 0!important;
+        text-align: center!important;
+    }
+    
+    
+    .page-template-app-page-php #right-banners {
+        top: 0!important;
+        margin-top: 123px!important;
+    }
+    
+    
+    ul.app-features {
+    margin-left: 0px!important;
+    }
+    
+    ul.app-features li span {
+        font-size: 1em!important;
+        line-height: 1em!important;
+    }
+    
+    .user-guides {
+    background-image: none!important;
+    width: 300px!important;
+    height: 100px!important;
+    right: 0!important;
+    margin: 0 auto!important;
+    background: grey!important;
+    border-radius: 10px!important;
+    }
+    
+    .manual-button {
+        display: none;
+    }
+    
+    #user-guides-title {
+        width: 100%!important;
+        top: 10px!important;
+        left: 0!important;
+        font-size: 2.5em!important;
+        line-height: 1em!important;
+        text-align: center;
+    }
+    
+    ul.manual-download {
+    width: 100%!important;
+    float: left!important;
+    margin: 0px!important;
+    position: relative!important;
+    text-align: center!important;
+    margin-top: 20px!important;
+    }
+    
+    ul.manual-download li {
+        margin-right: 0!important;
+    }
+    
+    
+        /*///  PIN-LESS PAGE   ///*/    
+    
+    body.page-template-pinless-page-php {
+    min-height: 790px!important;
+    }
+    
+    .page-template-pinless-page-php .outer_wrap {
+        min-height: 790px!important;
+    }
+    
+    .world-phone {
+        display: none;
+    }
+    
+   .page-template-pinless-page-php #first-message {
+    font-size: 1.8em !important;
+    }
+    
+    .page-template-pinless-page-php #second-message {
+    font-size: 1.2em!important;
+    }
+    
+    .easy-123 {
+    background-image: url(../images/easy-123-mobile-background.png)!important;
+    background-size: contain !important;
+    width: 319px!important;
+    height: 279px!important;
+    right: 0!important;
+    padding-top: 0!important;
+    padding-left: 0!important;
+    margin-left: 0 !important;
+    margin: 0 auto!important;
+    }
+    
+    .easy-123-title {
+    padding-top: 9px !important;
+    padding-left: 0!important;
+    font-size: 1.2em!important;
+    width: 100%!important;
+    text-align: center!important;
+    }
+    
+    table.easy-123-steps {
+    border: none !important;
+    max-width: 93%!important;
+    margin-top: 0px!important;
+    table-layout: fixed!important;
+    margin-left: 12px!important;
+    }
+    
+    table.easy-123-steps tr, table.easy-123-steps td {
+        border: none !important;
+        vertical-align: none; 
+        margin-top: 0 !important;
+        display: inherit;
+        font-size: .9em !important;
+        }
+    
+    .available {
+        font-size: .8em!important;
+        bottom: 8px !important;
+        right: 10px !important;
+    }
+    
+            /*///  RATES PAGE   ///*/
+    
+    body.page-template-rates-page-php {
+    min-height: 864px!important;
+    }
+
+    .page-template-rates-page-php .outer_wrap {
+        min-height: 875px!important;
+    }
+    
+    .page-template-rates-page-php #right-banners {
+        position: relative!important;
+    }
+    
+    .page-template-rates-page-php #first-message {
+    font-size: 1.5em !important;
+    }
+    
+   
+    
+    
+        /*///  RETAILERS PAGE   ///*/
+    
+    body.page-template-retailers-page-php, .page-template-retailers-page-php .outer_wrap  {
+    min-height: 890px!important;
+    }
+    
+        #hand-phone {
+        display: none;
+    }
+    
+    .page-template-retailers-page-php #first-message {
+    max-width: 100%!important;
+    font-size: 1.4em !important;
+    }
+    
+    .page-template-retailers-page-php #second-message {
+    font-size: 1.2em !important;
+    }
+    
+    
+    
+    
+        /*///  FOOTER   ///*/
+    
+
+    
+    #footer {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center!important;
+        padding-bottom: 51px!important;
+        padding-top: 10px !important;
+    }
+    
+    #footer .flex_33 {
+    float: none !important;
+    width: 100% !important;
+    }
+    
+    ul#menu-footer-menu, ul#menu-menu-footer {
+        float: none !important;
+        margin-top: 13px !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    ul#menu-footer-menu li, ul#menu-menu-footer li {
+    float: none !important;
+    }
+    
+    #footer p {
+    top: 0!important;
+        margin-left: 3% !important;
+    }
+    
+}
+
+
+/*===============================================================*/
+
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 415px)
+and (max-device-width : 800px)
+and (max-width : 800px){ 
+    
+        /*//////    FRONT PAGE    /////*/
+    
+       body.page-template-home-page-php, .page-template-home-page-php .outer_wrap {
+           min-height: 1520px !important;
+        }
+    
+        #app-banner {
+        margin: 0 auto!important;
+        float: none!important;
+        }
+        
+        #low-rates {
+        float: none !important;
+        clear: both !important;
+        margin: 0 auto;
+        }
+
+        #pin-less {
+        float: none !important;
+        position: relative;
+        margin-top: 15px;
+        clear: both;
+        margin: 0 auto;
+        }
+    
+        #retailer {
+        float: none !important;
+        position: relative !important;
+        clear: both;
+        margin: 0 auto;
+        margin-top: 0 !important;
+        }
+        
+        .rates-bullets-iPhone li {
+        margin-bottom: 7px !important;
+        line-height: 20px !important;
+        }
+    
+    #selected-rate {
+        margin-top: 15px !important;
+    }
+    
+            /*//////    APP PAGE    /////*/
+    
+    
+            body.page-template-app-page-php, .page-template-app-page-php .outer_wrap {
+        min-height: 1174px!important;
+                height: auto !important;
+        }
+    
+            /*//////    RATES PAGE    /////*/    
+    
+        body.page-template-rates-page-php, .page-template-rates-page-php .outer_wrap {
+            min-height: 1200px!important;
+        }
+        
+        .page-template-rates-page-php .outer_wrap {
+            margin-bottom: -30px !important;
+        }
+    
+        .rates-bullets-banner {
+        float: none !important;
+        margin-bottom: 30px;
+        left: 0 !important;
+        margin: 0 auto !important;
+        padding-top: 1px;
+        }
+
+            /*//////    RETAILERS PAGE    /////*/  
+    
+    .benefits, .retailers-login, .retailers-instructions {
+        left: 15px !important;
+    }
+}
+
+/* iPhone 4 & 5 (landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (max-width : 568px)
+and (orientation : landscape){ 
+    
+    body.page-template-rates-page-php, .page-template-rates-page-php .outer_wrap {
+        min-height: 850px !important;
+    }
+    
+    .rates-panel {
+    width: 311px!important;
+    height: 303px!important;
+    position: relative!important;
+    left: 0!important;
+    margin: 0 auto!important;
+    }
+    
+    .rates-panel-title {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    top: 14px!important;
+    left: 0!important;
+    width: 100%!important;
+    text-align: center!important;
+    }
+    
+    .page-template-rates-page-php #rates-selector {
+    top: 18px!important;
+    }
+    
+    #rates-selector select {
+    width: 100% !important;
+    font-size: 1em !important;
+    line-height: 21px !important;
+    height: 26px !important;
+        margin-bottom: 3px!important;
+    }
+    
+    #rates-table th {
+    padding: 2px!important;
+    line-height: 11px!important;
+    font-size: .8em !important;
+    }
+    
+    #rates-table td {
+    padding: 5px!important;
+    line-height: 12px!important;
+    font-size: .8em!important;
+    padding: 2px !important;
+    }
+
+    
+    .rates-bullets-banner {
+    width: 310px!important;
+    height: 176px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    left: 0!important;
+    margin: 0 auto!important;
+    }
+    
+        .rates-bullets-title {
+    font-size: 1.2em!important;
+    line-height: 1.1em!important;
+    text-align: center!important;
+    width: 83%!important;
+    margin-top: 0!important;
+    padding-top: 6px!important;
+    }
+
+
+    
+        .rates-bullets-2 {
+    width: 192px!important;
+    margin-top: 2px!important;
+    margin-left: 78px!important;
+    }
+
+        .rates-bullets-2 li {
+    width: 50%!important;
+    margin: 0px!important;
+    font-size: 1.1em!important;
+    line-height: 1em!important;
+    font-weight: 100!important;
+    margin-bottom: 5px!important;
+    }
+    
+        .rates-bullets-text_1 {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    padding-top: 5px!important;
+    margin-bottom: 4px!important;
+    }
+
+        .rates-bullets-text_2 {
+    font-size: 1.1em!important;
+    line-height: 1em!important;
+    }
+    
+    
+}
+
+
+/* iPhone 4 (landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (max-width : 480px)
+and (orientation : landscape){ 
+    
+        /*//////    RETAILERS PAGE    /////*/     
+    
+    .benefits, .retailers-login, .retailers-instructions {
+    width: 100%!important;
+    left: 0!important;
+    background-position-x: right!important;
+    }
+    
+    .benefits-line-1 {
+    left: 10px!important;
+    top: 17px!important;
+    max-width: 61%!important;
+    }
+
+    .benefits-line-1 h2, .login-line-2 h2 {
+        font-size: 1.2em !important;
+        line-height: 1em!important;
+    }
+    
+    .benefits-line-2 {
+    left: 6px!important;
+    top: 12px!important;
+    font-size: 1em!important;
+    line-height: 1em!important;
+    max-width: 61%!important;
+    }
+    
+    .benefits-line-3 {
+    left: 10px!important;
+    position: absolute !important;
+    top: 91px !important;
+    bottom: 7px !important;
+    max-width: 61%!important;
+    }
+    
+    .login-line-2 {
+    left: 10px!important;
+    top: 36px!important;
+    max-width: 61%!important;
+    }
+    
+    
+    .acrobat-retailers {
+    left: 0!important;
+    max-width: 208px!important;
+    margin: 0 auto!important;
+    }
+}
+    
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 414px)
+and (max-device-width : 740px){ 
+
+    
+    /*//////    FRONT PAGE    /////*/
+    
+    
+        #app-banner {
+        width: 306px !important;
+        margin: 0 auto!important;
+        height: 276px!important;
+        float: none!important;
+        }
+    
+         #low-rates {
+        float: none !important;
+        clear: both !important;
+        width: 306px !important;
+        height: 300px !important;
+        margin: 0 auto;
+    }
+    
+    #rates-titles {
+        font-size: 1.4em !important;
+        line-height: 1.1em !important;
+        top: 21px !important;
+        left: 28px!important;
+        padding: 0 !important;
+        max-width: 90% !important;
+    }
+    
+    .rates-bullets {
+        top: 28px !important;
+        padding-left: 35px !important;
+        margin-bottom: 18px;
+    }
+    
+    .rates-bullets-iPhone {
+        top: 28px !important;
+        left: 35px !important;
+        margin-bottom: 24px !important;
+    }
+    
+    
+    .rates-bullets li {
+        font-size: 21px !important;
+        margin-bottom: 4px !important;
+        line-height: 21px !important;
+    }
+    
+    .rates-bullets-iPhone li {
+        font-size: 21px !important;
+        margin-bottom: 3px !important;
+        line-height: 18px !important;
+    }
+    
+    #sample-rates-text {
+        top: 16px !important;
+    }
+    
+    .flag {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    
+    #sample-rates-text span {
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+    
+    #rates-selector select {
+        width: 280px !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        height: 26px !important;
+    }
+    
+    .page-template-home-page-php #rates-selector {
+        top: 23px !important;
+        left: 27px !important;
+        width: 250px !important;
+    }
+    
+    #selected-rate {
+        font-size: .9em !important;
+        line-height: .8em !important;
+        margin-left: 4px !important;
+        margin-top: 9px !important;
+    }
+    
+    #srt {
+        width: 65% !important;
+    }
+    
+    #rates-link {
+    margin-top: 0 !important;
+    }
+    
+    #rates-link a {
+    font-size: .9em !important
+    }
+    
+    #rates-banner {
+        top: 249px!important;
+        left: 5px;
+        width: 300px !important;
+    }
+        
+    #pin-less {
+        float: none !important;
+        position: relative;
+        background-image: url(./images/pin-less-background.png);
+        background-size: contain!important;
+        background-repeat: no-repeat;
+        width: 300px !important;
+        height: 113px !important;
+        margin-top: 15px;
+        clear: both;
+        margin: 0 auto;
+    }
+    
+    #pin-less-title {
+        width: 100% !important;
+        top: 11px !important;
+        font-size: 1.1em !important;
+        line-height: 1em !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+    }
+    
+    #rates-titles-es {
+        font-size: 1.3em !important;
+        width: 100% !important;
+        top: 22px !important;
+        line-height: 1.2em !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+        left: 0 !important;
+    }
+    
+    #pin-less-copy {
+        top: 17px !important;
+        left: 68px !important;
+        font-size: .9em !important;
+        line-height: 1em !important;
+        width: 75% !important;
+    }
+    
+    #pin-less-link {
+        top: 77px !important;
+    }
+    
+    #retailer {
+        float: none !important;
+        position: relative !important;
+        background: grey !important;
+        width: 300px !important;
+        height: 86px !important;
+        clear: both;
+        border-radius: 13px;
+        margin: 0 auto;
+        margin-top: 0 !important;
+    }
+    
+    #retailer-title {
+        width: 100% !important;
+        top: 9px !important;
+        left: 0 !important;
+        font-size: 1.6em !important;
+        line-height: 1em !important;
+        text-align: center;
+    }
+    
+    #retailer-copy {
+        width: 100% !important;
+        top: 28px !important;
+        left: 0 !important;
+        font-size: 1.1em !important;
+        line-height: 1em !important;
+        text-align: center;
+    }
+    
+    
+            /*//////    RATES PAGE    /////*/     
+    
+     .rates-panel {
+    width: 311px!important;
+    height: 303px!important;
+    position: relative!important;
+    left: 0!important;
+    margin: 0 auto!important;
+    }
+    
+    .rates-panel-title {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    top: 14px!important;
+    left: 0!important;
+    width: 100%!important;
+    text-align: center!important;
+    }
+    
+    .page-template-rates-page-php #rates-selector {
+    top: 18px!important;
+    }
+    
+    #rates-selector select {
+    width: 100% !important;
+    font-size: 1em !important;
+    line-height: 21px !important;
+    height: 26px !important;
+        margin-bottom: 3px!important;
+    }
+    
+    #rates-table th {
+    padding: 2px!important;
+    line-height: 11px!important;
+    font-size: .8em !important;
+    }
+    
+    #rates-table td {
+    padding: 5px!important;
+    line-height: 12px!important;
+    font-size: .8em!important;
+    padding: 2px !important;
+    }
+
+    
+    .rates-bullets-banner {
+    width: 310px!important;
+    height: 176px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    left: 0!important;
+    margin: 0 auto!important;
+    }
+    
+        .rates-bullets-title {
+    font-size: 1.2em!important;
+    line-height: 1.1em!important;
+    text-align: center!important;
+    width: 83%!important;
+    margin-top: 0!important;
+    padding-top: 6px!important;
+    }
+
+
+    
+        .rates-bullets-2 {
+    width: 192px!important;
+    margin-top: 2px!important;
+    margin-left: 78px!important;
+    }
+
+        .rates-bullets-2 li {
+    width: 50%!important;
+    margin: 0px!important;
+    font-size: 1.1em!important;
+    line-height: 1em!important;
+    font-weight: 100!important;
+    margin-bottom: 5px!important;
+    }
+    
+        .rates-bullets-text_1 {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    padding-top: 5px!important;
+    margin-bottom: 4px!important;
+    }
+
+        .rates-bullets-text_2 {
+    font-size: 1.1em!important;
+    line-height: 1em!important;
+    }
+    
+    
+    
+     .rates-banner-2 {
+    width: 100%!important;
+    }
+    
+    
+    /*//////    RETAILERS PAGE    /////*/     
+    
+    .benefits, .retailers-login, .retailers-instructions {
+    width: 100%!important;
+    left: 0!important;
+    background-position-x: right!important;
+    }
+    
+    .benefits-line-1 {
+    left: 10px!important;
+    top: 17px!important;
+    max-width: 61%!important;
+    }
+
+    .benefits-line-1 h2, .login-line-2 h2 {
+        font-size: 1.2em !important;
+        line-height: 1em!important;
+    }
+    
+    .benefits-line-2 {
+    left: 6px!important;
+    top: 12px!important;
+    font-size: 1em!important;
+    line-height: 1em!important;
+    max-width: 61%!important;
+    }
+    
+    .benefits-line-3 {
+    left: 10px!important;
+    position: absolute !important;
+    top: 91px !important;
+    bottom: 7px !important;
+    max-width: 61%!important;
+    }
+    
+    .login-line-2 {
+    left: 10px!important;
+    top: 36px!important;
+    max-width: 61%!important;
+    }
+    
+    
+    .acrobat-retailers {
+    left: 0!important;
+    max-width: 208px!important;
+    margin: 0 auto!important;
+    }
+}
+
+
+
+/*===============================================================*/
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    
+            nav {
+            border-bottom: 0;
+        }
+        nav ul {
+            display: none;
+            height: auto;
+        }
+        #navigation li li {
+            display: none;
+            height: auto;
+        }
+        nav #pull {
+            padding: 0px 0px 15px 10px;
+            width: 30px;
+            height: 30px;
+        }
+        nav a#pull {
+            display: block;
+        }
+        nav li {
+            display: block;
+            float: none;
+            width: 100%;
+        }
+        nav li a {
+            border-bottom: 1px solid #576979;
+        }
+    
+/*///  HEADER   ///*/
+    
+    #navigation {
+       height: 50px;
+        width: 200px !important;
+        float: right;
+    }
+    
+    #navigation ul {
+        width: 200px !important;
+        position: absolute !important;
+        right: 0px !important;
+    }
+    
+    #navigation li {
+        position: relative;
+        background: rgba(244, 206, 13, 0.9);
+        max-width: 190px;
+        border: 1px solid #A36F6F;
+        z-index: 9999;
+        float: none;
+        text-align: center;
+    }
+    
+    nav #pull {
+        margin-left: 60px;
+    }
+    
+    #f-f {
+        top: 0px !important;
+        float: none !important;
+    }
+    
+    /*///  HOME   ///*/    
+    
+    #girl {
+        display: none;
+    }
+    
+    #first-message {
+        max-width: 85%;
+    }
+    
+    #downloads {
+        max-width: 76%;
+    }
+    
+    .content {
+        padding: 0px !important;
+    }
+    
+    /*///  APP PAGE   ///*/  
+    
+
+    .page-template-app-page-php ul.stores {
+        padding-top: 11px !important;
+    }
+    
+        /*///  PIN-LESS   ///*/  
+    
+    
+
+        /*///////  FOOTER  //////*/
+   /* #footer .flex_33 {
+        width: 50% !important;
+    } */
+    
+        ul#menu-footer-menu li, ul#menu-menu-footer li {
+        display: block !important;
+    }
+    
+}
+
+
+/*===============================================================*/
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (min-width : 802px)
+and (orientation : landscape) {
+    
+    
+    .rates-bullets {
+        top: 44px !important;
+    }
+    
+    
+
+        /*///////  APP PAGE  //////*/
+    
+    .page-template-app-page-php #app {
+        width: 0 !important;
+    }
+        
+    .page-template-app-page-php #right-banners {
+        width: 50%!important;
+    }
+    .user-guides {
+        background-size: cover!important;
+        width: 550px!important;
+        right: 32px !important;
+    }
+    
+    ul.manual-download {
+        margin-left: -114px !important;
+        margin-top: 10px !important;
+    }
+    
+    
+    body.page-template-app-page-php {
+        min-height: 1077px !important;
+    }
+    
+    body.page-template-rates-page-php {
+        min-height: 810px !important;
+    }
+    
+    .manual-button {
+        right: 0 !important;
+    }
+    
+    
+        /*///////  PIN-LESS PAGE  //////*/
+    
+    .page-template-pinless-page-php #app {
+        width: 30% !important;
+    }
+    
+    .page-template-pinless-page-php #right-banners {
+        right: 7% !important;
+    }
+    
+    .world-phone {
+        width: 499px !important;
+        height: 500px !important;
+        top: 122px !important;
+        left: -23px !important;
+    }
+    
+        .easy-123 {
+        right: -3% !important;
+    }
+    
+        /*///////  RATES PAGE  //////*/
+    
+    .page-template-rates-page-php #app {
+        width: 5% !important;
+    }
+    
+    
+   .page-template-rates-page-php .outer_wrap {
+        min-height: 876px!important;
+   }
+    
+    
+    .rates-bullets-banner {
+        width: 436px !important;
+        left: -13px !important;
+        margin-top: 45px !important;
+    }
+    
+    .rates-bullets-title {
+        font-size: 1.3em!important;
+        line-height: 1.2em !important;
+        width: 80% !important;
+    }
+    
+    .rates-bullets-2 {
+        width: 62% !important;
+        margin-top: 13px !important;
+        margin-left: 106px !important;
+    }
+    
+    .rates-bullets-2 li {
+        width: 50% !important;
+        font-size: 1.65em !important;
+        line-height: .28em !important;
+        margin-bottom: 25px !important;
+    }
+    
+    .rates-bullets-text_1 {
+        font-size: 1.5em !important;
+        line-height: 15px !important;
+        padding-top: 8px !important;
+    }
+    
+    .rates-bullets-text_2 {
+        font-size: 1.4em !important;
+        line-height: 1em !important;
+    }
+    
+        /*///////  RETAILERS PAGE  //////*/
+    
+    #hand-phone {
+        width: 45% !important;
+    }
+    
+        /*///////  FOOTER  //////*/   
+    
+    #footer .flex_33 {
+        width:  50% !important;
+    }
+    
+}
+
+
+/*===============================================================*/
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    
+    body {
+        min-height: 1610px !important;
+    }
+    
+    .content {
+        padding: 0px !important;
+    }
+    
+    #top-banner {
+        width: 70% !important;
+    }
+    
+    #app {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    #right-banners, .page-template-app-page-php #right-banners {
+        clear: both!important;
+        float: none!important;
+        width: 100%!important;
+        right: 0 !important;
+        top: 0px !important;
+    }
+    
+    /*///////  FRONT PAGE  //////*/
+    
+    .page-template-home-page-php .outer_wrap {
+        margin-bottom: -40px !important;
+    }
+    
+    #first-message, #second-message, .download-title, .app-title {
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    #first-message {
+    margin-top: 20px !important;
+    }
+    
+    #app-banner, #banner-shadow, #downloads, .phones, .download-banner {
+        left: 0 !important;
+        right: 0 !important;
+        float: none !important;
+        margin: 0 auto;
+    }
+    
+    
+    #low-rates, #pin-less, #retailer {
+        float: none !important;
+        margin: 0 auto;
+    }
+    
+       /*///////  APP PAGE  //////*/ 
+    
+    body.page-template-app-page-php {
+        min-height: 715px !important;
+    }
+    
+    .user-guides {
+        width: 722px !important;
+        right: 0 !important;
+    }
+    
+    .manual-button {
+        height: 51px !important;
+    }
+    
+    ul.manual-download {
+        margin-left: 7% !important;
+        float: none !important;
+        width: auto !important;
+    }
+    
+     ul.manual-download li {
+         padding-bottom: 0 !important;
+     }
+    
+    /*///////  PIN-LESS PAGE  //////*/  
+    
+    body.page-template-pinless-page-php {
+        min-height: 1500px !important;
+    }
+    
+    .page-template-pinless-page-php #app {
+        position: absolute;
+        top: 750px !important;
+        width: 96% !important;
+    }
+    
+    .page-template-pinless-page-php #first-message {
+        
+    }
+    
+    .world-phone {
+        left: 0 !important;
+        margin: 0 auto;
+        margin-top: 84px !important;
+        padding-top: 0px !important;
+    }
+    
+    table.easy-123-steps {
+        margin-top: 5px!important;
+    }
+    
+    .available {
+        margin-top: 10px!important;
+    }
+
+    /*///////  RATES PAGE  //////*/ 
+    
+    body.page-template-rates-page-php {
+        min-height: 1380px !important;
+    }
+    
+    .page-template-rates-page-php #right-banners {
+        position: relative !important;
+        top: 20px !important;
+    }
+    
+    .rates-panel {
+        margin: 0 auto !important;
+        left: 0 !important;
+    }
+    
+    .rates-bullets-banner {
+        float: none !important;
+        margin-bottom: 30px !important;
+        left: 0px !important;
+        margin: 0 auto !important;
+        padding-top: 3px !important;
+    }
+  
+    /*///////  RETAILERS PAGE  //////*/
+    
+    .page-template-retailers-page-php #first-message {
+      margin-top: 65px !important;
+    }
+    
+    .benefits, .retailers-login, .retailers-instructions {
+        left: 0 !important;
+        margin: 0 auto !important;
+    }
+    
+    .page-template-retailers-page-php #top-banner {
+        width: 49% !important;
+    }
+    
+    #hand-phone {
+        width: 100% !important;
+    }
+    
+    /*///////  FOOTER  //////*/   
+    
+#footer {
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-bottom: 51px!important;
+        padding-top: 30px !important;
+    }
+    
+    #footer .flex_33 {
+        float: left!important;
+        width: 100% !important;
+    }
+    
+    ul#menu-footer-menu, ul#menu-menu-footer {
+        float: none !important;
+        padding-top: 13px !important;
+        margin: 0 auto !important;
+        padding-bottom: 10px !important;
+        position: relative;
+        text-align: center !important;
+        max-width: 97% !important;
+    }
+    
+    .menu-menu-footer-container {
+        width: 100% !important;
+    }
+    
+    
+    #footer p {
+        top: 0!important;
+        margin-top: 30px !important;
+        float: none !important;
+        text-align: center!important;
+    }
+    
+
+
+}
+
+
+
+/*===============================================================*/
+
+/* Desktops and laptops ----------- */
+
+
+
+
+
+@media only screen 
+and (max-width : 1150px)
+and (min-device-width : 1100px) {
+
+    .page-template-retailers-page-php div#navigation {
+        top: 93px!important;
+    }
+
+}
+
+
+@media only screen 
+and (max-width : 1240px)
+and (min-device-width : 1100px) {
+    
+    
+    #f-f {
+        top: 0px !important;
+        float: none !important;
+    }
+    
+    /*///  HOME   ///*/    
+    
+    #girl {
+        display: none;
+    }
+    
+    #first-message {
+        max-width: 100%;
+    }
+    
+    #downloads {
+        max-width: 600px;
+    }
+    
+    .content {
+        padding: 0px !important;
+    }
+    
+    .page-template-app-page-php #right-banners {
+        width: 49% !important;
+    }
+    
+    
+        /*///////  APP PAGE  //////*/
+    
+    body.page-template-app-page-php {
+        height: auto;
+        min-height: 1040px !important;
+        }
+
+        /*///////  FOOTER  //////*/
+    #footer .flex_33 {
+        width: 50% !important;
+    }
+    
+        ul#menu-footer-menu li, ul#menu-menu-footer li {
+        float: none  !important;
+    }
+    
+    #f-f {
+        top: 0px !important;
+        float: none !important;
+    }
+    
+    #girl {
+        display: none;
+    }
+    
+    
+    .manual-button {
+        display: none;
+    }
+    
+    .world-phone {
+        left: -42px!important;
+    }
+    
+    .page-template-pinless-page-php #right-banners {
+        width: 58%!important;
+    }
+    
+    
+            /*///////  RATES PAGE  //////*/
+    
+    .rates-bullets-banner {
+        width: 436px !important;
+        left: -13px !important;
+        margin-top: 45px !important;
+    }
+    
+    .rates-bullets-title {
+        font-size: 1.3em!important;
+        line-height: 1.1em !important;
+        width: 80% !important;
+    }
+    
+    .rates-bullets-2 {
+        width: 62% !important;
+        margin-top: 0px !important;
+        margin-left: 106px !important;
+    }
+    
+    .rates-bullets-2 li {
+        width: 50% !important;
+        font-size: 1.7em !important;
+        line-height: 1.3em !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .rates-bullets-text_1 {
+        font-size: 1.5em !important;
+        line-height: 15px !important;
+        padding-top: 10px !important;
+    }
+    
+    .rates-bullets-text_2 {
+        font-size: 1.4em !important;
+        line-height: 1em !important;
+    }
+    
+}
+
+@media only screen 
+and (max-width : 1355px)
+and (min-device-width : 1100px){
+    
+        .page-template-retailers-page-php div#navigation {
+        top: 93px!important;
+        }
+}
+ 
+
+@media only screen 
+and (max-width : 1300px)
+and (min-device-width : 1100px){
+ 
+    .user-guides {
+        background-size: cover!important;
+        width: 560px!important;
+        height: 125px!important;
+        right: 0px!important;
+    }
+    
+}
+
+@media only screen 
+and (max-width : 1090px)
+and (min-device-width : 1100px){
+
+    
+                    nav {
+                    border-bottom: 0;
+                }
+                nav ul {
+                    display: none;
+                    height: auto;
+                }
+                #navigation li li {
+                    display: none;
+                    height: auto;
+                }
+                nav #pull {
+                    padding: 0px 0px 15px 10px;
+                    width: 30px;
+                    height: 30px;
+                }
+                nav a#pull {
+                    display: block;
+                }
+                nav li {
+                    display: block;
+                    float: none;
+                    width: 100%;
+                }
+                nav li a {
+                    border-bottom: 1px solid #576979;
+                }
+    
+        #navigation {
+       height: 50px;
+        width: 200px !important;
+        float: right;
+    }
+    
+    #navigation ul {
+        width: 200px !important;
+        position: absolute !important;
+        right: 0px !important;
+    }
+    
+    #navigation li {
+        position: relative;
+        background: rgba(244, 206, 13, 0.9);
+        max-width: 190px;
+        border: 1px solid #A36F6F;
+        z-index: 9999;
+        float: none;
+        text-align: center;
+    }
+    
+    nav #pull {
+        margin-left: 60px;
+    }
+    
+    
+    body {
+        min-height: 1600px !important;
+    }
+    
+    .content {
+        padding: 0px !important;
+    }
+    
+    #top-banner {
+        width: 70% !important;
+    }
+    
+    #app {
+        float: none !important;
+        width: 100% !important;
+    }
+    .page-template-app-page-php #right-banners {
+        width: 100% !important;
+    }
+
+    #right-banners {
+        clear: both!important;
+        float: none!important;
+        width: 100%!important;
+        right: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    /*///////  FRONT PAGE  //////*/
+    
+    #first-message, #second-message, .download-title, .app-title {
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    #app-banner, #banner-shadow, #downloads, .phones, .download-banner {
+        left: 0 !important;
+        right: 0 !important;
+        float: none !important;
+        margin: 0 auto;
+    }
+    
+    
+    #low-rates, #pin-less, #retailer {
+        float: none !important;
+        margin: 0 auto;
+    }
+    
+       /*///////  APP PAGE  //////*/ 
+    
+    body.page-template-app-page-php {
+        height: auto !important;
+    }
+    
+    .user-guides {
+        width: 722px !important;
+        right: 0 !important;
+    }
+    
+    .manual-button {
+        height: 51px !important;
+        display: block !important;
+    }
+    
+    ul.manual-download {
+    width: 633px!important;
+    float: none!important;
+    margin: 0px!important;
+    margin: 0 auto !important;
+    }
+    
+    .user-guides {
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        width: 760px!important;
+        height: 130px!important;
+        position: relative!important;
+        margin: 0 auto;
+    }
+    
+    .asterisk {
+        width: 500px !important;
+        margin: 0 auto !important;
+        max-width: 100%;
+        margin-top: 20px !important;
+    }
+    
+    /*///////  PIN-LESS PAGE  //////*/  
+    
+    body.page-template-pinless-page-php {
+        min-height: 1500px !important;
+    }
+    
+    .page-template-pinless-page-php #right-banners {
+        width: 100%!important;
+        margin-top: 40px !important;
+        }
+    
+    .page-template-pinless-page-php #app {
+        position: absolute;
+        top: 750px !important;
+        width: 96% !important;
+    }
+    
+    ul.app-features {
+        margin-left: 0px!important;
+        margin: 0 auto!important;
+        width: 100%!important;
+        margin-top: 20px !important;
+        }
+    
+    .easy-123 {
+    right: 0!important;
+    margin: 0 auto!important;
+    }
+
+    .world-phone {
+        left: 0 !important;
+        margin: 0 auto;
+        margin-top: 42px !important;
+        padding-top: 0px !important;
+    }
+
+    /*///////  RATES PAGE  //////*/ 
+    
+    body.page-template-rates-page-php {
+        min-height: 1380px !important;
+    }
+    
+    .page-template-rates-page-php #right-banners {
+        position: relative !important;
+        top: 20px !important;
+    }
+    
+    .rates-panel {
+        margin: 0 auto !important;
+        left: 0 !important;
+    }
+    
+    .rates-bullets-banner {
+        float: none !important;
+        margin-bottom: 30px !important;
+        left: 0px !important;
+        margin: 0 auto !important;
+        padding-top: 3px !important;
+    }
+  
+    
+    .rates-banner-2 {
+        margin-top: 0 !important;
+    }
+    
+    /*///////  RETAILERS PAGE  //////*/
+    
+    .page-template-retailers-page-php #first-message {
+      margin-top: 65px !important;
+    }
+    
+    .benefits, .retailers-login, .retailers-instructions {
+        left: 0 !important;
+        margin: 0 auto !important;
+    }
+    
+    .page-template-retailers-page-php #top-banner {
+        width: 49% !important;
+    }
+    
+    #hand-phone {
+        width: 100% !important;
+    }
+    
+    /*///////  FOOTER  //////*/   
+ /*   
+    #footer p {
+        top: -53px !important;
+        max-width: 50% !important;
+    }
+    `
+ */       
+    
+
+    
+    #footer {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center!important;
+        padding-bottom: 51px!important;
+        padding-top: 10px !important;
+    }
+    
+    #footer .flex_33 {
+    float: none !important;
+    width: 100% !important;
+    }
+    
+    ul#menu-footer-menu, ul#menu-menu-footer {
+        float: none !important;
+        margin-top: 13px !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    ul#menu-footer-menu li, ul#menu-menu-footer li {
+    float: none !important;
+    }
+    
+    #footer p {
+    top: 0!important;
+        float: none !important;
+    }
+    
+    
+}
+
+
+@media only screen 
+and (max-width : 760px)
+and (min-device-width : 1100px){
+    
+  #lang-switch {
+        margin-top: 20px;
+        margin-right: 19px;
+    }
+    
+    #top-banner {
+        top: 163px !important;
+        left: 0 !important;
+        width: 100% !important;
+        display: none !important;
+    }
+    
+    #logo {
+        width: 120px !important;
+        height: 120px !important;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    
+    .page-template-rates-page-php #banner-text, .page-template-home-page-php #banner-text, .page-template-pinless-page-php #banner-text {
+        max-width: 100% !important;
+    }
+
+    div#navigation {
+        top: 13px !important;
+    }
+    
+    #navigation {
+       height: 50px;
+        width: 135px !important;
+        float: right;
+    }
+    
+    #navigation ul {
+        width: 200px !important;
+        position: absolute !important;
+        right: 0px !important;
+    }
+    
+    #navigation li {
+        position: relative;
+        background: rgba(244, 206, 13, 0.9);
+        max-width: 190px;
+        border: 1px solid #A36F6F;
+        z-index: 9999;
+        float: none;
+        text-align: center;
+    }
+    
+    nav #pull {
+        margin-left: 30px;
+    }
+    
+    
+    #f-f {
+        display: none;
+    }
+    
+    #app {
+        float: none !important;
+        width: 100% !important;
+    }
+    
+    #right-banners {
+        float: none !important;
+        width: 100% !important;
+        top: 10px !important;
+        right: 0 !important;
+    }
+    
+    .content-wrap {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    
+    /*///  FRONT PAGE   ///*/
+    
+    body.page-template-home-page-php {
+        min-height: 1520px !important;
+    }
+    
+    .page-template-home-page-php .outer_wrap {
+        margin-bottom: -70px !important;
+        min-height: 1520px;
+    }
+    
+    
+    #app-banner {
+
+    }
+    
+    #banner-shadow {
+        width: 306px !important;
+    }
+    
+    #girl {
+        display: none !important;
+    }
+    
+    #first-message, #second-message, .download-title, .app-title {
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    #first-message {
+        font-size: 2.2em !important;
+    }
+    
+    .page-template-home-page-php #second-message, .page-template-retailers-page-php #second-message {
+        font-size: 1.5em !important;
+    }
+    
+    .download-title {
+        font-size: 1.6em !important;
+    }
+    
+    page-template-home-page-php ul.stores {
+        width: 100% !important;
+    }
+    
+    .stores li {
+        float: none !important;
+        display: block !important;
+        width: 200px !important;
+        margin: 0 auto !important;
+    }
+    
+    #low-rates {
+        float: none !important;
+        clear: both !important;
+        width: 306px !important;
+        height: 300px !important;
+        margin: 0 auto;
+    }
+    #rates-titles {
+        font-size: 1.4em !important;
+        line-height: 1.1em !important;
+        top: 21px !important;
+        left: 28px!important;
+        padding: 0 !important;
+        max-width: 90% !important;
+    }
+    
+    .rates-bullets, .rates-bullets-iPhone {
+        top: 26px !important;
+        padding-left: 35px !important;
+    }
+
+    
+    .rates-bullets li {
+        font-size: 1.5em !important;
+        margin-bottom: 0px !important;
+        line-height: 1.15em !important;
+    }
+    
+    .rates-bullets-iPhone li {
+        font-size: 1.5em !important;
+        margin-bottom: 2px !important;
+        line-height: 18px !important;
+    }
+    
+    #sample-rates-text {
+        top: 16px !important;
+    }
+    
+    .flag {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    
+    #sample-rates-text span {
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+    
+    #rates-selector select {
+        width: 252px !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        height: 36px !important;
+    }
+    
+    .page-template-home-page-php #rates-selector {
+        top: 13px !important;
+        left: 27px !important;
+        width: 250px !important;
+    }
+    
+    #selected-rate {
+        font-size: .9em !important;
+        line-height: .8em !important;
+        margin-left: 4px !important;
+        margin-top: 9px !important;
+    }
+    
+    #srt {
+        width: 60% !important;
+    }
+    
+    #rates-link {
+    margin-top: 0 !important;
+    }
+    
+    #rates-banner {
+        top: 249px!important;
+        left: 5px;
+        width: 300px !important;
+    }
+        
+    #pin-less {
+        float: none !important;
+        position: relative;
+        background-image: url(./images/pin-less-background.png);
+        background-size: contain!important;
+        background-repeat: no-repeat;
+        width: 300px !important;
+        margin-top: 15px;
+        clear: both;
+        margin: 0 auto;
+        height: 112px !important;
+    }
+    
+    #pin-less-title {
+        width: 100% !important;
+        top: 11px !important;
+        font-size: 1.1em !important;
+        line-height: 1em !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+    }
+    
+    #rates-titles-es {
+        font-size: 1.3em !important;
+        width: 100% !important;
+        top: 22px !important;
+        line-height: 1.2em !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+        left: 0 !important;
+    }
+    
+    #pin-less-copy {
+        top: 17px !important;
+        left: 68px !important;
+        font-size: .9em !important;
+        line-height: 1em !important;
+        width: 75% !important;
+    }
+    
+    #pin-less-link {
+        top: 77px !important;
+    }
+    
+    #retailer {
+        float: none !important;
+        position: relative !important;
+        background: grey !important;
+        width: 300px !important;
+        height: 86px !important;
+        clear: both;
+        border-radius: 13px;
+        margin: 0 auto;
+        margin-top: 0 !important;
+    }
+    
+    #retailer-title {
+        width: 100% !important;
+        top: 9px !important;
+        left: 0 !important;
+        font-size: 1.6em !important;
+        line-height: 1em !important;
+        text-align: center;
+    }
+    
+    #retailer-copy {
+        width: 100% !important;
+        top: 28px !important;
+        left: 0 !important;
+        font-size: 1.1em !important;
+        line-height: 1em !important;
+        text-align: center;
+    }
+    
+    
+    
+        /*///  APPS PAGE   ///*/
+    
+    body.page-template-app-page-php {
+    height: auto !important;
+    }
+    
+    
+    .phones {
+        display: none;
+    }
+    
+    .download-banner {
+    width: 310px !important;
+    height: 110px !important;
+    left: 0 !important;
+    margin: 0 auto !important;
+    }
+    
+    
+    .download-text {
+    font-size: 1.7em!important;
+    width: 90%!important;
+    margin-left: 5%!important;
+    text-align: center!important;
+    line-height: 1.2em!important;
+    }
+
+    
+    .page-template-app-page-php ul.stores {
+        width: 100%!important;
+        padding-top: 27px!important;
+        margin-left: 0!important;
+        text-align: center!important;
+    }
+    
+    
+    .page-template-app-page-php #right-banners {
+        top: 0!important;
+        margin-top: 123px!important;
+    }
+    
+    
+    ul.app-features {
+    margin-left: 0px!important;
+    }
+    
+    ul.app-features li span {
+        font-size: 1em!important;
+        line-height: 1em!important;
+    }
+    
+    .user-guides {
+    background-image: none!important;
+    width: 300px!important;
+    height: 100px!important;
+    right: 0!important;
+    margin: 0 auto!important;
+    background: grey!important;
+    border-radius: 10px!important;
+    }
+    
+    .manual-button {
+        display: none !important
+    }
+    
+    #user-guides-title {
+        width: 100%!important;
+        top: 10px!important;
+        left: 0!important;
+        font-size: 2.5em!important;
+        line-height: 1em!important;
+        text-align: center;
+    }
+    
+    ul.manual-download {
+    width: 100%!important;
+    float: left!important;
+    margin: 0px!important;
+    position: relative!important;
+    text-align: center!important;
+    margin-top: 20px!important;
+    }
+    
+    ul.manual-download li {
+        margin-right: 0!important;
+    }
+    
+    
+        /*///  PIN-LESS PAGE   ///*/    
+    
+    body.page-template-pinless-page-php {
+    min-height: 900px!important;
+    }
+    
+    .world-phone {
+        display: none;
+    }
+    
+   .page-template-pinless-page-php #first-message {
+    font-size: 1.8em !important;
+    }
+    
+    .page-template-pinless-page-php #second-message {
+    font-size: 1.2em!important;
+    }
+    
+    .easy-123 {
+    background-image: url(../images/easy-123-mobile-background.png)!important;
+        background-size: contain !important;
+    width: 377px!important;
+    height: 314px !important;
+    right: 0!important;
+    padding-top: 16px!important;
+    padding-left: 0!important;
+    margin-left: 0 !important;
+    margin: 0 auto!important;
+    }
+    
+    .easy-123-title {
+    padding-left: 0!important;
+    font-size: 1.3em!important;
+    width: 100%!important;
+    text-align: center!important;
+    padding-top: 10px !important;
+    }
+    
+    table.easy-123-steps {
+    border: none !important;
+    max-width: 93%!important;
+    margin-top: 10px!important;
+    table-layout: fixed!important;
+    margin-left: 12px!important;
+    }
+    
+    table.easy-123-steps tr, table.easy-123-steps td {
+        border: none !important;
+        vertical-align: none; 
+        margin-top: 0 !important;
+        display: inherit;
+        font-size: .9em !important;
+        }
+    
+    .available {
+    margin-top: 9px!important;
+    font-size: .8em!important;
+    float: right!important;
+    margin-right: 20px!important;
+    }
+    
+            /*///  RATES PAGE   ///*/
+    
+    body.page-template-rates-page-php {
+    min-height: 915px !important;
+    }
+
+    .page-template-rates-page-php .outer_wrap {
+        min-height: 915px !important;
+    }
+    
+    .page-template-rates-page-php #right-banners {
+        position: relative!important;
+    }
+    
+    .page-template-rates-page-php #first-message {
+    font-size: 1.5em !important;
+    }
+    
+    .rates-panel {
+    width: 311px!important;
+    height: 303px!important;
+    position: relative!important;
+    left: 0!important;
+    margin: 0 auto!important;
+    }
+    
+    .rates-panel-title {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    top: 14px!important;
+    left: 0!important;
+    width: 100%!important;
+    text-align: center!important;
+    }
+    
+    .page-template-rates-page-php #rates-selector {
+    top: 18px!important;
+    }
+    
+    #rates-selector select {
+    width: 100% !important;
+    font-size: 1em !important;
+    line-height: 21px !important;
+    height: 26px !important;
+        margin-bottom: 3px!important;
+    }
+    
+    #rates-table th {
+    padding: 2px!important;
+    line-height: 11px!important;
+    font-size: .8em !important;
+    }
+    
+    #rates-table td {
+    padding: 5px!important;
+    line-height: 12px!important;
+    font-size: .8em!important;
+    padding: 2px !important;
+    }
+
+    
+    .rates-bullets-banner {
+    width: 310px!important;
+    height: 176px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    left: 0!important;
+    margin: 0 auto!important;
+    }
+    
+        .rates-bullets-title {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    text-align: center!important;
+    width: 83%!important;
+    margin-top: 0!important;
+    padding-top: 6px!important;
+    }
+
+        .rates-bullets-2 {
+    width: 192px!important;
+    margin-top: 2px!important;
+    margin-left: 78px!important;
+    }
+
+        .rates-bullets-2 li {
+    width: 50%!important;
+    margin: 0px!important;
+    font-size: 1.1em!important;
+    line-height: 1.1em!important;
+    font-weight: 100!important;
+    margin-bottom: 5px!important;
+    }
+    
+        .rates-bullets-text_1 {
+    font-size: 1.2em!important;
+    line-height: 1em!important;
+    padding-top: 5px!important;
+    margin-bottom: 4px!important;
+    }
+
+        .rates-bullets-text_2 {
+    font-size: 1.1em!important;
+    line-height: 1em!important;
+    }
+    
+    
+    .rates-banner-2 {
+        width: 100%!important;
+        margin-top: 20px !important;
+    }
+    
+    
+        /*///  RETAILERS PAGE   ///*/
+    
+    body.page-template-retailers-page-php, .page-template-retailers-page-php .outer_wrap  {
+    min-height: 890px!important;
+    }
+    
+        #hand-phone {
+        display: none;
+    }
+    
+    .page-template-retailers-page-php #first-message {
+    max-width: 100%!important;
+    font-size: 1.4em !important;
+    }
+    
+    .page-template-retailers-page-php #second-message {
+    font-size: 1.2em !important;
+    }
+    
+    
+    
+    .acrobat-retailers {
+    left: 0!important;
+    max-width: 208px!important;
+    margin: 0 auto!important;
+    }
+
+    
+          /*///  FOOTER   ///*/
+    
+
+    
+    #footer {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center!important;
+        padding-bottom: 51px!important;
+        padding-top: 10px !important;
+    }
+    
+    #footer .flex_33 {
+    float: none !important;
+    width: 100% !important;
+    }
+    
+    ul#menu-footer-menu, ul#menu-menu-footer {
+        float: none !important;
+        margin-top: 13px !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    ul#menu-footer-menu li, ul#menu-menu-footer li {
+    float: none !important;
+    }
+    
+    #footer p {
+    top: 0!important;
+    }
+    
+
+}
+
+@media only screen 
+and (max-width : 525px)
+and (min-device-width : 1100px){
+
+.benefits, .retailers-login, .retailers-instructions {
+    width: 100%!important;
+    left: 0!important;
+    background-position-x: right!important;
+    }
+    
+    .benefits-line-1 {
+    left: 10px!important;
+    top: 17px!important;
+    max-width: 61%!important;
+    }
+
+    .benefits-line-1 h2, .login-line-2 h2 {
+        font-size: 1.2em !important;
+    }
+    
+    .benefits-line-2 {
+    left: 6px!important;
+    top: 12px!important;
+    font-size: 1em!important;
+    line-height: 1em!important;
+    max-width: 61%!important;
+    }
+    
+    .benefits-line-3 {
+    left: 10px!important;
+    top: 20px!important;
+    max-width: 61%!important;
+    }
+    
+    .login-line-2 {
+    left: 10px!important;
+    top: 36px!important;
+    max-width: 61%!important;
+    }
+    
+}
+
+
+/*===============================================================*/
+
+
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1680px)
+and (min-device-width : 1100px){
+    
+    body.page-template-rates-page-php {
+    min-height: 1000;
+    }
+    
+    body {
+        min-height: 1220px !important;
+    }
+    
+    #girl {
+        left: 70% !important;
+        width: 600px !important;
+        height: 805px !important;
+    }
+    
+    #app-banner {
+    width: 481px!important;
+    height: 437px!important;
+    }
+  
+    .tp-caption .sfl .start {
+        width: 470px !important;
+    }
+    
+    #srt {
+        width: 68% !important;
+    }
+    
+    #banner-shadow {
+        width: 481px!important;
+        height: 53px!important;
+        left: 0px!important;
+    }
+    
+    #low-rates {
+        width: 490px!important;
+        height: 479px!important;
+    }
+    
+    #rates-titles {
+        font-size: 31px!important;
+        line-height: 33px!important;
+        top: 31px!important;
+        padding-left: 63px!important;
+    }
+    
+    #rates-titles-es {
+        font-size: 31px!important;
+        line-height: 33px!important;
+        letter-spacing: -1.7px!important;
+    }
+    
+    .rates-bullets, .rates-bullets-iPhone {
+        top: 56px !important;
+        padding-left: 54px !important;
+    }
+    
+    .rates-bullets li {
+        font-size: 35px !important;
+        line-height: 26px !important;
+    }
+    
+    .rates-bullets-iPhone li {
+    margin-bottom: 2px !important;
+    line-height: 18px !important;
+    }
+        
+    #sample-rates-text {
+        height: 40px!important;
+        top: 58px!important;
+    }
+
+    #sample-rates-text span {
+        font-size: 20px !important;
+        line-height: 21px!important;
+        top: -14px!important;
+        max-height: 20px!important;
+    }
+
+
+    .flag {
+        width: 60px!important;
+        height: 60px !important;
+    }
+
+    .page-template-home-page-php #rates-selector {
+        top: 88px!important;
+        left: 47px!important;
+        width: 410px!important;
+    }
+
+    #selected-rate {
+        font-size: 24px!important;
+        line-height: 24px!important;
+        margin-left: 10px!important;
+        margin-top: 5px!important;
+    }
+    
+    #rates-banner {
+        top: 405px!important;
+        left: 45px!important;
+        width: 400px!important;
+    }
+    
+    #pin-less {
+        width: 490px!important;
+        height: 162px!important;
+    }
+    
+    #pin-less-title{
+        font-size: 30px !important;
+        top: 29px!important;
+    }
+    
+    #pin-less-copy {
+        left: 112px !important;
+        top: 46px!important;
+        font-size: 21px!important;
+        line-height: 21px!important;
+    }
+    
+    #pin-less-link {
+        top: 122px!important;
+        left: 13px!important;
+        font-size: 19px!important;
+        line-height: 19px!important;
+    }
+    
+    #retailer {
+        width: 522px!important;
+        height: 122px!important;
+    }
+    #retailer-title {
+        top: 26px!important;
+        left: 128px!important;
+        font-size: 30px!important;
+        line-height: 30px!important;
+    }
+    
+    #retailer-copy {
+        top: 39px!important;
+        left: 127px!important;
+        font-size: 23px!important;
+        line-height: 21px!important;
+    }
+    
+    
+    #app {
+        width: 45%!important;
+        float: left!important;
+        margin-top: 2%!important;
+    }
+    
+    .phones {
+        width: 590px!important;
+        height: 750px!important;
+    }
+    
+    .download-banner {
+        width: 490px!important;
+        height: 174px!important;
+        left: 16% !important;
+    }
+    
+    .download-text {
+        font-size: 28px!important;
+        line-height: 37px !important;
+    }
+    
+    .page-template-app-page-php ul.stores {
+        padding-top: 32px!important;
+        margin-left: 50px!important;
+    }
+    
+    #right-banners {
+        margin-top: 3% !important;
+    }
+    
+    .app-title {
+        font-size: 1.9em !important;
+    }
+    
+    ul.app-features li span {
+        font-size: 1.6em !important;
+    }
+    
+    .app-icon {
+        width: 40px !important;
+    }
+    .asterisk p {
+        font-size: 1.2em !important;
+    }
+    
+    .user-guides {
+        right: 4px!important;
+        margin-bottom: 30px!important;
+        margin-top: 30px!important;
+    }
+    
+    ul.manual-download {
+        margin-left: 85px !important;
+    }
+
+    .page-template-pinless-page-php #right-banners {
+        width: 55% !important;
+    }
+    
+    .world-phone {
+        width: 750px !important;
+        height: 670px !important;
+    }
+    
+    .easy-123 {
+        width: 815px !important;
+        height: 492px !important;
+    }
+    
+    .easy-123-title {
+        padding-left: 225px !important;
+        padding-top: 77px!important;
+        font-size: 2.2em !important;
+    }
+    
+    table.easy-123-steps {
+        margin-left: 142px  !important;
+    }
+    table.easy-123-steps td {
+        font-size: 1.5em;
+    }
+    
+    table.easy-123-steps td:nth-child(1) {
+        width: 88px !important;
+    }
+    
+    .available {
+        margin-left: 20px !important;
+        font-size: 1.2em !important;
+    }
+    
+    .rates-panel {
+        width: 644px !important;
+        height: 629px !important;
+    }
+    
+    .rates-panel-title {
+        font-size: 2em !important;
+        line-height: 1.8em !important;
+        top: 32px !important;
+        left: 101px !important;
+    }
+    
+    #rates-table th, #rates-table td {
+        padding: 7px !important;
+        font-size: 1.2em !important;
+        line-height: 1em !important;
+    }
+    
+    #rates-selector select {
+        font-size: 26px !important;
+        line-height: 25px !important;
+        height: 40px !important;
+    }
+    
+    .rates-bullets-banner {
+        width: 739px !important;
+        height: 421px !important;
+    }
+    
+    .rates-bullets-title {
+        font-size: 2.1em!important;
+        line-height: 1.5em !important;
+        width: 80% !important;
+    }
+    
+    .rates-bullets-2 {
+        width: 62% !important;
+        margin-top: 11px !important;
+        margin-left: 184px !important;
+    }
+    
+    .rates-bullets-2 li {
+        width: 50% !important;
+        font-size: 2.3em !important;
+        line-height: .84em !important;
+    }
+    
+    .rates-bullets-text_1 {
+        font-size: 2em !important;
+        line-height: 35px !important;
+        padding-top: 27px !important;
+    }
+    
+    .rates-bullets-text_2 {
+        font-size: 2.2em !important;
+        line-height: 1.3em !important;
+    }
+    
+    #hand-phone {
+    height: 746px !important;
+    margin-top: -746px !important;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5)
+and (max-device-width : 320px),
+only screen and (min-device-pixel-ratio : 1.5)
+and (max-device-width : 320px){
+
+    .page-template-home-page-php .outer_wrap {
+        margin-bottom: -55px !important;
+    }
+}
+
+
+/*===============================================================*/
+
+
