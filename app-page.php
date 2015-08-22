@@ -41,14 +41,20 @@ if(stripos($_SERVER['HTTP_USER_AGENT'],"Android")) {
                     <li class="android" style="margin: 0 auto; width: 185px;">
                         <INPUT Type="BUTTON" VALUE="" ONCLICK="window.location.href='https://play.google.com/store/apps/details?id=com.by24.voip&referrer=utm_source%3DAndroidPIT%26utm_medium%3DAndroidPIT%26utm_campaign%3DAndroidPIT'">
 </FORM></li>
+             <li class="android-download" style="float: left; width: 160px; ">
+                        <INPUT Type="BUTTON" VALUE="" onclick="window.open('/wp-content/themes/simon-wp-framework-child/com.by24.voip.apk')">
+</FORM></li>
             <?php } else { ?>
-    <li class="apple-small" style="float: left; width: 160px; margin-left: 25px;">
+    <li class="apple-small" style="float: left; width: 160px; margin-left: 25px; margin-right: 5px;">
                         <FORM>
                             <INPUT Type="BUTTON" VALUE="" ONCLICK="window.location.href='https://itunes.apple.com/us/app/7by24/id677629605?mt=8'">
 </FORM></li>
 
-                    <li class="android-small" style="float: right; width: 160px; margin-right: 25px;">
+                    <li class="android-small" style="float: left; width: 160px; margin-right: 5px;">
                         <INPUT Type="BUTTON" VALUE="" ONCLICK="window.location.href='https://play.google.com/store/apps/details?id=com.by24.voip&referrer=utm_source%3DAndroidPIT%26utm_medium%3DAndroidPIT%26utm_campaign%3DAndroidPIT'">
+</FORM></li>
+<li class="android-download-small" style="float: left; width: 160px; ">
+                        <INPUT Type="BUTTON" VALUE="" onclick="window.open('/wp-content/themes/simon-wp-framework-child/com.by24.voip.apk')">
 </FORM></li>
       <?php } 
       

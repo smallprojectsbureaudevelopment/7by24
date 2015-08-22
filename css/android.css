@@ -186,10 +186,11 @@ and (max-width : 800px) {
     }
     
     .download-banner {
-    width: 310px !important;
-    height: 110px !important;
-    left: 0 !important;
-    margin: 0 auto !important;
+        width: 310px !important;
+        height: 83px !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        padding-top: 8px !important;
     }
     
     
@@ -212,7 +213,7 @@ and (max-width : 800px) {
     
     .page-template-app-page-php #right-banners {
         top: 0!important;
-        margin-top: 123px!important;
+        margin-top: 165px!important;
     }
     
     
@@ -226,13 +227,14 @@ and (max-width : 800px) {
     }
     
     .user-guides {
-    background-image: none!important;
-    width: 300px!important;
-    height: 100px!important;
-    right: 0!important;
-    margin: 0 auto!important;
-    background: grey!important;
-    border-radius: 10px!important;
+        background-image: none!important;
+        width: 300px!important;
+        height: 100px!important;
+        right: 0!important;
+        margin: 0 auto!important;
+        background: grey!important;
+        border-radius: 10px!important;
+        float: none !important;
     }
     
     .manual-button {

@@ -7,6 +7,7 @@ Template: simon-wp-framework
 
 @import url("../simon-wp-framework/style.css");
 
+@import url("css/devices.css");
 
 /*////////  FONTS   //////////*/
 
@@ -28,11 +29,6 @@ src:url('./fonts/Helvetica-Light.woff');
 @font-face{
 font-family: 'HelveticaBold';
 src:url('./fonts/Helvetica-Bold.woff');
-}
-
-@font-face{
-font-family: 'HelveticaCufont';
-src:url('./fonts/Helvetica-Neue-LT.ttf');
 }
 
 /*////////  GENERAL   //////////*/
@@ -388,6 +384,19 @@ body.page-template-default {
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
+    margin-bottom: 10px;
+}
+
+.android-download input[type="button"]{
+    float: right;
+    width: 100%;
+    height: 62px;
+    background-image: url(./images/download-android.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
 }
 
 .android-es input[type="button"]{
@@ -415,6 +424,16 @@ body.page-template-default {
     width: 144px;
     height: 48px;
     background-image: url(./images/google-play-es.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.android-download-small [type="button"]{
+    width: 144px;
+    height: 48px;
+    background-image: url(./images/download-android.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -770,21 +789,21 @@ ul#menu-footer-menu .current_page_item > a, ul#menu-menu-footer .current_page_it
 }
 
 .download-banner {
-    background-image: url(./images/download-buttons-background.png);
+    background-image: url(./images/download-buttons-background_02.png);
     background-size: contain;
-    width: 399px;
+    width: 539px;
     height: 142px;
     position: relative;
     background-repeat: no-repeat;
     left: 10%;
     top: -2px;
+    padding-top: 22px;
 }
 
 .download-text {
     color: #fff;
     font-size: 23px;
     width: 100%;
-    padding-top: 22px;
     text-align: center;
 }
 
@@ -827,16 +846,18 @@ ul.app-features li span a {
 .asterisk p {
     font-size: 12px;
     font-style: italic;
+    text-align: center;
 }
 
 .user-guides {
     background-image: url(./images/app-download-banner.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 760px;
+    width: 560px;
     height: 130px;
     position: relative;
-    right: 94px;
+    right: 57px;
+    float: right;
 }
 
 #user-guides-title {
@@ -872,7 +893,7 @@ ul.app-features li span a {
     height: 75px;
     top: 33px;
     position: relative;
-    right: 20px;
+    right: 0px;
 }
 
 #user-guides-text {
@@ -889,7 +910,7 @@ ul.app-features li span a {
 
 ul.manual-download {
     width: 620px;
-    float: left;
+    float: right;
     margin: 0px;
     position: relative;
 }

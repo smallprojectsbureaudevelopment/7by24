@@ -186,10 +186,11 @@ and (max-width : 740px) {
     }
     
     .download-banner {
-    width: 310px !important;
-    height: 110px !important;
-    left: 0 !important;
-    margin: 0 auto !important;
+        width: 310px !important;
+        height: 82px !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        padding-top: 6px !important;
     }
     
     
@@ -226,13 +227,14 @@ and (max-width : 740px) {
     }
     
     .user-guides {
-    background-image: none!important;
-    width: 300px!important;
-    height: 100px!important;
-    right: 0!important;
-    margin: 0 auto!important;
-    background: grey!important;
-    border-radius: 10px!important;
+        background-image: none!important;
+        width: 300px!important;
+        height: 100px!important;
+        right: 0!important;
+        margin: 0 auto!important;
+        background: grey!important;
+        border-radius: 10px!important;
+        float: none !important;
     }
     
     .manual-button {
@@ -1599,7 +1601,7 @@ and (min-device-width : 1100px){
 }
 
 @media only screen 
-and (max-width : 1090px)
+and (max-width : 1330px)
 and (min-device-width : 1100px){
 
     
@@ -1736,6 +1738,7 @@ and (min-device-width : 1100px){
         height: 130px!important;
         position: relative!important;
         margin: 0 auto;
+        float: none !important;
     }
     
     .asterisk {
@@ -1743,6 +1746,10 @@ and (min-device-width : 1100px){
         margin: 0 auto !important;
         max-width: 100%;
         margin-top: 20px !important;
+    }
+    
+    .asterisk p {
+        text-align: left !important;
     }
     
     /*///////  PIN-LESS PAGE  //////*/  
@@ -2004,6 +2011,8 @@ and (min-device-width : 1100px){
         display: block !important;
         width: 200px !important;
         margin: 0 auto !important;
+        margin-top: 10px !important;
+        height: 48px;
     }
     
     #low-rates {
@@ -2176,6 +2185,7 @@ and (min-device-width : 1100px){
     }
     
     .download-banner {
+    background-image: url(../images/download-buttons-background.png) !important;
     width: 310px !important;
     height: 110px !important;
     left: 0 !important;
@@ -2202,7 +2212,7 @@ and (min-device-width : 1100px){
     
     .page-template-app-page-php #right-banners {
         top: 0!important;
-        margin-top: 123px!important;
+        margin-top: 178px!important;
     }
     
     
